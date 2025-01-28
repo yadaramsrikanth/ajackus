@@ -1,0 +1,57 @@
+.add-user-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #cfd1d1;
+    min-height: 100vh;
+    background-size: cover;
+    margin-top: 0px;
+}
+.add-new-user{
+    font-size: 24px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.form-data-container{
+    width: 50%;
+    height: 60%;
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+.label-element{
+    font-size: 22px;
+    font-family: "Roboto";
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 5px;
+}
+.input-element{
+    width: 60%;
+    padding: 10px;
+    border:1px solid black;
+    border-radius: 5px;
+    outline: none;
+    background-color: transparent;
+    font-size: 15px;
+    
+}
+.input-element::placeholder{
+    color: black;
+    font-size: 15px;
+}
+.add-user-button{
+    background-color: #3e3ef3f3;
+    padding: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    border: none;
+    font-weight: 400;
+    align-self: center;
+    margin: 10px 5px 5px 5px;
+    border-radius: 8px;
+}

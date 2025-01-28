@@ -1,0 +1,65 @@
+.edit-button{
+    background-color: rgb(221, 150, 18);
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 200;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    margin: 0px;
+}
+.edit-popup-container{
+    background-color: #e8f4fc ;
+    max-height: 70vh;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    
+}
+.edit-user-details-container{
+    background-color: #e8f4fc ;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.edit-user-form-container{
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 60%;
+    height: 60%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.edit-label-element{
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 300;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.edit-input-element{
+    outline: none;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 70%;
+}
+.save-button-in-edit-form{
+    background-color: #008080;
+    border: none;
+    margin: 10px 5px 10px 5px;
+    padding: 10px;
+    border-radius: 5px;
+    align-self: center;
+    color: #ffffff;
+}
+.edit-user-heading{
+    font-family: "Roboto";
+    margin: 10px;
+    color: #FF6F61;
+    font-size: 18px;
+}
