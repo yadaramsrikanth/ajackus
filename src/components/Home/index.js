@@ -13,7 +13,7 @@ const Home=()=>{
     const [error,setError]=useState("")
     
 
-
+    
 
 const onClickEditUserDetails=(data)=>{
    console.log(data)
@@ -89,7 +89,7 @@ const errorhandling=(error)=>{
         <ul className="users-unordered-list">
             {users.map((eachUser,index)=>{
                 return <li key={eachUser.id} className="users-list-card">
-                    
+                    {error!==""?<p>{error}</p>:<>
                     <p className="user-id">{index+1}</p>
                     <p className="user-name">{eachUser.name}</p>
                     <p className="user-email">{eachUser.email}</p>
@@ -97,7 +97,7 @@ const errorhandling=(error)=>{
                     <Edit eachUser={eachUser} onClickEditUserDetails={onClickEditUserDetails}/>
                     <Delete onhandleData={onhandleData} eachUser={eachUser} errorhandling={errorhandling}/>
                     
-                    
+                    </>}
                     </li>
             })}
         </ul>
